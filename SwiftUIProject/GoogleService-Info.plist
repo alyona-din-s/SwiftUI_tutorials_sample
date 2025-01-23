@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>81141769608-ufh0rs8oq0peqo1bml3ji3mbm5unkrmr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.81141769608-ufh0rs8oq0peqo1bml3ji3mbm5unkrmr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC3IJwrwOn6qMEzRdL0a-leUlSaYv9Bz7I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>81141769608</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.lvtnqasdete.de</string>
+	<key>PROJECT_ID</key>
+	<string>appfortest-5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>appfortest-5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:81141769608:ios:5b6139c0af18dd5682063d</string>
+	<key>DATABASE_URL</key>
+	<string>https://appfortest-5-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
