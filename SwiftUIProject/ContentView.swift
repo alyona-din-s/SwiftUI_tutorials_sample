@@ -6,6 +6,7 @@
 //
  
 import SwiftUI
+import UserNotifications
 
 class CounterViewModel: ObservableObject {
     @Published var count = 0
@@ -14,6 +15,20 @@ class CounterViewModel: ObservableObject {
 struct ParentView: View {
     @StateObject private var viewModel = CounterViewModel()
 
+    func askPermissionsNotifications(){
+        let center = UNUserNotificationCenter.current()
+        center.requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
+            print("Permission granted: \(granted)")
+        }
+    }
+    
+    func setNotifications(){
+        let center = UNUserNotificationCenter.current()
+        center.requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
+            print("Permission granted: \(granted)")
+        }
+    }
+    
     var body: some View {
         VStack {
             Text("Parent Count: \(viewModel.count)")
